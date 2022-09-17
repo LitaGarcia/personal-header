@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255, 214, 255);
+  background: linear-gradient(
+    180deg,
+    #ffd6ff 0%,
+    rgba(231, 198, 255, 1) 35%,
+    rgba(200, 182, 255, 1) 100%
+  );
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: 5px solid #e7c6ff;
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+.main__title {
+  text-transform: capitalize;
+  color: #2c2a4a;
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+  padding: 12px;
+}
+a {
+  text-decoration: none;
+  color: #2c2a4a;
+  font-size: 1rem;
+}
+
+.main__title--desc {
+  text-transform: capitalize;
+  color: #2c2a4a;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.main__title--letter {
+  color: #2c2a4a;
+  text-shadow: #cb9ced 3px 5px;
+}
+.main__title--ex {
+  color: #2c2a4a;
+  text-shadow: #d1a6f0 2px 3px;
+}
+
+.main__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+}
